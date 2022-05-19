@@ -12,7 +12,7 @@ function fizzbuzz() {
     }
 }
 
-// fizzbuzz();
+fizzbuzz();
 
 // alternate version pushing print out to html
 
