@@ -20,15 +20,15 @@ function fizzbuzzHtml() {
     for (var i = 1; i <= 100; i++) {
         if (((i % 3) == 0 ) && ((i % 5 == 0))) {
             const para = document.createElement('p');
-            para.innerText = 'FizzBuzz';
+            para.innerText = `${i} is FizzBuzz`;
             document.body.appendChild(para);
         } else if ((i % 3) == 0) {
             const para = document.createElement('p');
-            para.innerText = 'Fizz';
+            para.innerText = `${i} is Fizz`;
             document.body.appendChild(para);
         } else if ((i % 5) == 0) {
             const para = document.createElement('p');
-            para.innerText = 'Buzz';
+            para.innerText = `${i} is Buzz`;
             document.body.appendChild(para);
         } else {
             const para = document.createElement('p');
